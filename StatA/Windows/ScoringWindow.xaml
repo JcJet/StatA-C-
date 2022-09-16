@@ -1,0 +1,73 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StatA.Windows"
+        xmlns:cm="clr-namespace:System.ComponentModel;assembly=System"
+        xmlns:Custom="http://schemas.stocksharp.com/xaml" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" x:Class="StatA.Windows.ScoringWindow"
+        mc:Ignorable="d"
+        Title="Скоринг инструментов" Height="540.644" Width="840.678">
+  <Window.Resources>
+    <cm:BackgroundWorker x:Key="backgroundWorker" WorkerReportsProgress="True" WorkerSupportsCancellation="True" DoWork="backgroundWorker_DoWork" ProgressChanged="backgroundWorker_ProgressChanged" RunWorkerCompleted="backgroundWorker_RunWorkerCompleted"></cm:BackgroundWorker>
+  </Window.Resources>
+    <TabControl x:Name="ScoringTabs" >
+        <TabItem Header="Арбитражные группы">
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1" Margin="0,5,0,-5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="26*" />
+                        <RowDefinition Height="215*" />
+                    </Grid.RowDefinitions>
+                    <Button x:Name="AddToBasket1Button" Content="Добавить" HorizontalAlignment="Left" Width="75" IsEnabled="False" Click="AddToBasket1Button_Click"/>
+                    <Button x:Name="AddToBasket2Button" Content="Добавить" Grid.Column="1" HorizontalAlignment="Left" Width="75" IsEnabled="False" Click="AddToBasket2Button_Click"/>
+                    <DataGrid x:Name="Basket1Grid" Grid.Row="1" SelectionChanged="Basket1Grid_SelectedItemChanged"/>
+                    <DataGrid x:Name ="Basket2Grid" Grid.Column="1" Grid.Row="1" SelectionChanged="Basket2Grid_SelectedItemChanged"/>
+                    <xctk:DecimalUpDown x:Name="Basket1WeightInput" HorizontalAlignment="Left" Margin="221,0,0,0" Width="69" RenderTransformOrigin="1.135,0.479" Value="1" ValueChanged="Basket1WeightInput_ValueChanged" Increment="0.1"/>
+                    <xctk:DecimalUpDown x:Name="Basket2WeightInput" HorizontalAlignment="Left" Margin="221,0,0,0" Width="69" RenderTransformOrigin="1.135,0.479" Grid.Column="1" Value ="1" ValueChanged="Basket2WeightInput_ValueChanged" Increment="0.1"/>
+                    <Label x:Name="label1" Content="Весовой коэффициент:" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Column="1" Width="136"/>
+                    <Label x:Name="label2" Content="Весовой коэффициент:" HorizontalAlignment="Left" Margin="75,0,0,0" Width="136"/>
+                    <Button x:Name="Basket1DeleteButton" Content="Удалить" HorizontalAlignment="Left" Margin="329,-2,0,2" Width="75" IsEnabled="False" Click="Basket1DeleteButton_Click"/>
+                    <Button x:Name="Basket2DeleteButton" Content="Удалить" HorizontalAlignment="Left" Margin="329,-2,0,2" Width="75" Grid.Column="1" IsEnabled="False" Click="Basket2DeleteButton_Click"/>
+                </Grid>
+                <Custom:SecurityPicker x:Name ="ScoringSecuritiesList" x:FieldModifier = "public" SecuritySelected="ScoringSecuritiesList_SecuritySelected"/>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Скоринг">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal">
+                    <Button Name ="CalcScoringBtn" Content="Обновить скоринг" Click="CalcScoringBtn_Click" Tag="Start"/>
+                  <ComboBox Name="SecSourceInput" Width="150">
+                    <ComboBoxItem Name ="AllSec" Content="Все доступные"></ComboBoxItem>
+                    <ComboBoxItem Name ="ScoringSec" Content="Список скоринга"></ComboBoxItem>
+                  </ComboBox>
+                    <ProgressBar Name ="progressBar"  Margin ="3,0,0,0" Width="200"/>
+                  <Label Name="progressText"></Label>
+                </StackPanel>
+                <DataGrid x:Name="scoringGrid" Grid.Row="1">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Path=Pair}" Header="Пара"/>
+                        <DataGridTextColumn Binding="{Binding Path=Stationarity}" Header="Стационарность"/>
+                        <DataGridTextColumn Binding="{Binding Path=CandleCount}" Header="Свечи"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

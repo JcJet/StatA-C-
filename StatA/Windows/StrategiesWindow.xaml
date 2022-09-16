@@ -1,0 +1,29 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StatA.Windows"
+        xmlns:root="clr-namespace:StatA"
+        xmlns:Custom="http://schemas.stocksharp.com/xaml" x:Class="StatA.Windows.StrategiesWindow"
+        mc:Ignorable="d"
+        Title="StrategiesWindow" Height="300" Width="449.153">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Custom:StrategiesDashboard Name ="StrategiesDashboard1"  Grid.Row="1"/>
+        <StackPanel Orientation="Horizontal">
+            <Button Name ="AddStrategyBtn" Content="Добавить" Click="AddStrategyBtn_Click"/>
+            <Button Name ="RemoveStrategyBtn" Content="Удалить"/>
+            <Button Name ="StrategySettingsBtn" Content="Изменить" Click="StrategySettingsBtn_Click" />
+            <Button Name ="StartButton" Content="Просмотр" Click="StartButton_Click"/>
+            <Button Name ="TestingButton" Content="Тестирование"/>
+            <Button Name ="StatisticsButton" Content="Статистика"/>
+        </StackPanel>
+    </Grid>
+</Window>

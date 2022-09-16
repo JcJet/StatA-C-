@@ -1,0 +1,67 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StatA"
+        xmlns:Custom="http://schemas.stocksharp.com/xaml"
+        xmlns:s="clr-namespace:System;assembly=mscorlib"
+        x:Class="StatA.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="170" Width="525" Closing="Window_Closing">
+    <Grid>
+        <ContentControl HorizontalAlignment="Left" Margin="461,-87,0,0" VerticalAlignment="Top"/>
+        <Grid HorizontalAlignment="Left" Height="123" VerticalAlignment="Top" Width="517" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+          <Menu x:Name="menu" Margin="0,0,0,0">
+            <MenuItem Header="Сервис">
+              <MenuItem Header="Смена пароля" Name="ChangePasswordMenuItem" Click="ChangePasswordButton_Click"/>
+            </MenuItem>
+          </Menu>
+            <Button x:Name="ConnectionSettingsButton" Content="Коннектор" Click="ConnectionSettingsButton_Click"/>
+            <Button x:Name="ConnectionButton" Content="Подключиться" Grid.Row="1" Click="ConnectionButton_Click" Background="#FFFF6464"/>
+            <Button x:Name="HistoryButton" Content="Итория" Grid.Row="2" Click="HistoryButton_Click"/>
+            <Button x:Name="ChangePasswordButton" Content="Смена пароля" Grid.Row="3" Click="ChangePasswordButton_Click"/>
+            <Button x:Name="StorageButton" Content="Хранилище" Grid.Row="4" Click="StorageButton_Click"/>
+            <Button x:Name="button25" Content="" Grid.Row="5"/>
+            <Button x:Name="OrdersButton" Content="Заявки" Grid.Column="1" Click="OrdersButton_Click"/>
+            <Button x:Name="StopOrdersButton" Content="Стоп-заявки" Grid.Column="1" Grid.Row="1" Click="StopOrdersButton_Click"/>
+            <Button x:Name="DealsButton" Content="Свои сделки" Grid.Column="1" Grid.Row="2" Click="DealsButton_Click"/>
+            <Button x:Name="PortfoliosButton" Content="Портфели" Grid.Column="1" Grid.Row="3" Click="PortfoliosButton_Click"/>
+            <Button x:Name="NewOrderButton" Content="Новая заявка" Grid.Column="1" Grid.Row="4" Click="NewOrderButton_Click"/>
+            <Button x:Name="NewConditionalOrderButton" Content="Условная заявка" Grid.Column="1" Grid.Row="5" Click="NewConditionalOrderButton_Click"/>
+            <Button x:Name="InstrumentsButton" Content="Инструменты" Grid.Column="2" Click="InstrumentsButton_Click"/>
+            <Button x:Name="TicksButton" Content="Тики" Grid.Column="2" Grid.Row="1" Click="TicksButton_Click"/>
+            <Button x:Name="button12" Content="" Grid.Column="2" Grid.Row="2"/>
+            <Button x:Name="button13" Content="" Grid.Column="2" Grid.Row="3"/>
+            <Button x:Name="button14" Content="" Grid.Column="2" Grid.Row="4"/>
+            <Button x:Name="button26" Content="" Grid.Column="2" Grid.Row="5"/>
+            <Button x:Name="ChartButton" Content="График" Grid.Column="3" Click="ChartButton_Click"/>
+            <Button x:Name="StrategiesButton" Content="Стратегии" Grid.Column="3" Grid.Row="1" Click="StrategiesButton_Click"/>
+            <Button x:Name="ScoringButton" Content="Скоринг" Grid.Column="3" Grid.Row="2" Click="ScoringButton_Click"/>
+            <Button x:Name="MonitoringButton" Content="Мониторинг" Grid.Column="3" Grid.Row="3" Click="MonitoringButton_Click"/>
+            <Button x:Name="button19" Content="" Grid.Column="3" Grid.Row="4"/>
+            <Button x:Name="button27" Content="" Grid.Column="3" Grid.Row="5"/>
+            <Button x:Name="EmulationButton" Content="Эмуляция" Grid.Column="4" Click="EmulationButton_Click" Background="#FFDDDDDD"/>
+            <Button x:Name="button21" Content="" Grid.Column="4" Grid.Row="1"/>
+            <Button x:Name="button22" Content="" Grid.Column="4" Grid.Row="2"/>
+            <Button x:Name="button23" Content="" Grid.Column="4" Grid.Row="3"/>
+            <Button x:Name="button24" Content="" Grid.Column="4" Grid.Row="4"/>
+            <Button x:Name="button28" Content="" Grid.Column="4" Grid.Row="5"/>
+        </Grid>
+    </Grid>
+</Window>

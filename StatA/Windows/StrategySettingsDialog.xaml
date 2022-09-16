@@ -1,0 +1,70 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StatA.Windows"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" x:Class="StatA.Windows.StrategySettingsDialog"
+        mc:Ignorable="d"
+        Title="StrategySettingsDialog" Height="400" Width="300">
+    <Grid Margin="0,0,0,-21">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="TextBlock0" Text="Название стратегии" TextWrapping="WrapWithOverflow"/>
+        <TextBox x:Name="NameText" Grid.Column="1" TextWrapping="Wrap" Text="TextBox" />
+        <TextBlock x:Name="textBlock1" Text="Число месяцев для вычисления исторического диапазона" TextWrapping="WrapWithOverflow" Grid.Row="1"/>
+        <xctk:DecimalUpDown x:Name ="monthsInput" Increment="1" Grid.Row="1" Grid.Column="1"/>
+        <TextBlock x:Name="textBlock2" Text="Уровень стандартного отклонения спреда для входа в позицию" TextWrapping="WrapWithOverflow" Grid.Row="2"/>
+        <xctk:DecimalUpDown x:Name ="sdInput" Grid.Row="2" Grid.Column="1"/>
+        <TextBlock x:Name="textBlock3" Text="Максимальное P-значение теста на стационарность" TextWrapping="WrapWithOverflow" Grid.Row="3"/>
+        <xctk:DecimalUpDown x:Name ="pvalInput" Grid.Row="3" Grid.Column="1"/>
+        <TextBlock x:Name="textBlock4" Text="Число зон СКО" TextWrapping="WrapWithOverflow" Grid.Row="4"/>
+        <xctk:DecimalUpDown x:Name ="zonesInput" Increment="1" Grid.Row="4" Grid.Column="1"/>
+        <TextBlock x:Name="textBlock5" Text="Способ расчета середины диапазона" TextWrapping="WrapWithOverflow" Grid.Row="5"/>
+        <ComboBox x:Name ="rangeCalcInput" Grid.Row="5" Grid.Column="1">
+            <ComboBoxItem Name="History" Content="Исторический" Tag="History"/>
+            <ComboBoxItem Name="CurrentSpread" Content="Текущий" Tag ="CurrentSpread"/>
+        </ComboBox>
+        <TextBlock x:Name="textBlock6" Text="Отображение спреда" TextWrapping="WrapWithOverflow" Grid.Row="6"/>
+        <ComboBox x:Name ="spreadDrawInput" Grid.Row="6" Grid.Column="1">
+            <ComboBoxItem Name="Spread" Content="Как есть" Tag="Spread"/>
+            <ComboBoxItem Name="SpreadMA" Content="Относительно МА" Tag="SpreadMA"/>
+        </ComboBox>
+        <TextBlock x:Name="textBlock7" Text="Коэфф. изменения границы диапазона" TextWrapping="WrapWithOverflow" Grid.Row="7"/>
+        <xctk:DecimalUpDown x:Name ="channelInput" Increment="1" Grid.Row="7" Grid.Column="1"/>
+        <TextBlock x:Name="textBlock8" Text="Расчет стационарности" TextWrapping="WrapWithOverflow" Grid.Row="8"/>
+        <ComboBox x:Name ="stationarityCalcInput" Grid.Row="8" Grid.Column="1">
+            <ComboBoxItem Name="StatSpread" Content="Относительно центра" Tag="Spread"/>
+            <ComboBoxItem Name="StatSpreadMA" Content="Относительно МА" Tag="SpreadMA"/>
+        </ComboBox>
+        <TextBlock x:Name="textBlock9" Text="Источник исторических данных" TextWrapping="WrapWithOverflow" Grid.Row="9"/>
+        <ComboBox x:Name ="historySourceInput" Grid.Row="9" Grid.Column="1">
+            <ComboBoxItem Name="Google" Content="Google" Tag="Google"/>
+            <ComboBoxItem Name="Quindl" Content="Quindl" Tag="Quindl"/>
+            <ComboBoxItem Name="Xignite" Content="Xignite" Tag="Xignite"/>
+            <ComboBoxItem Name="Yahoo" Content="Yahoo" Tag="Yahoo"/>
+            <ComboBoxItem Name="Alor" Content="Alor" Tag="Alor"/>
+            <ComboBoxItem Name="Finam" Content="Финам" Tag="Finam"/>
+            <ComboBoxItem Name="Mfd" Content="Mfd" Tag="Mfd"/>
+            <ComboBoxItem Name="Ux" Content="Ux" Tag="Ux"/>
+        </ComboBox>
+        <!-- <TextBlock x:Name="textBlock8" Text="" TextWrapping="WrapWithOverflow" Grid.Row="8"/> -->
+        <Button x:Name="OkButton" Content="OK" Grid.Row="10" Click="OkButton_Click" IsDefault="True"/>
+        <Button x:Name="CancelButton" Content="Отмена" Grid.Row="10" Grid.Column="1" IsCancel="True" Click="CancelButton_Click" />
+    </Grid>
+</Window>

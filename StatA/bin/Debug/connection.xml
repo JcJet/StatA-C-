@@ -1,0 +1,475 @@
+<SettingsStorage>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>TradesKeepCount</key>
+    <value>
+      <Type type="string">int</Type>
+      <Value type="int">100000</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>OrdersKeepCount</key>
+    <value>
+      <Type type="string">int</Type>
+      <Value type="int">1000</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>UpdateSecurityLastQuotes</key>
+    <value>
+      <Type type="string">bool</Type>
+      <Value type="bool">True</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>UpdateSecurityByLevel1</key>
+    <value>
+      <Type type="string">bool</Type>
+      <Value type="bool">True</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>ReConnectionSettings</key>
+    <value>
+      <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+      <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>WorkingTime</key>
+          <value>
+            <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+            <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+              <KeyValuePairBeginStringAndObjectEnd>
+                <key>Periods</key>
+                <value>
+                  <Type type="string">Ecng.Serialization.SettingsStorage[], Ecng.Serialization</Type>
+                  <Value type="Ecng.Serialization.SettingsStorage[], Ecng.Serialization" />
+                </value>
+              </KeyValuePairBeginStringAndObjectEnd>
+              <KeyValuePairBeginStringAndObjectEnd>
+                <key>SpecialWorkingDays</key>
+                <value>
+                  <Type type="string">System.Collections.Generic.List`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib</Type>
+                  <Value type="System.Collections.Generic.List`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib" />
+                </value>
+              </KeyValuePairBeginStringAndObjectEnd>
+              <KeyValuePairBeginStringAndObjectEnd>
+                <key>SpecialHolidays</key>
+                <value>
+                  <Type type="string">System.Collections.Generic.List`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib</Type>
+                  <Value type="System.Collections.Generic.List`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib" />
+                </value>
+              </KeyValuePairBeginStringAndObjectEnd>
+            </Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>Interval</key>
+          <value>
+            <Type type="string">time</Type>
+            <Value type="time">00:00:10</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>AttemptCount</key>
+          <value>
+            <Type type="string">int</Type>
+            <Value type="int">0</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>ReAttemptCount</key>
+          <value>
+            <Type type="string">int</Type>
+            <Value type="int">100</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>TimeOutInterval</key>
+          <value>
+            <Type type="string">time</Type>
+            <Value type="time">00:00:30</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+      </Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>LatencyManager</key>
+    <value>
+      <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+      <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>type</key>
+          <value>
+            <Type type="string">string</Type>
+            <Value type="string">StockSharp.Algo.Latency.LatencyManager, StockSharp.Algo</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>settings</key>
+          <value>
+            <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+            <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization" />
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+      </Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>CommissionManager</key>
+    <value>
+      <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+      <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>type</key>
+          <value>
+            <Type type="string">string</Type>
+            <Value type="string">StockSharp.Algo.Commissions.CommissionManager, StockSharp.Algo</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>settings</key>
+          <value>
+            <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+            <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+              <KeyValuePairBeginStringAndObjectEnd>
+                <key>Rules</key>
+                <value>
+                  <Type type="string">Ecng.Serialization.SettingsStorage[], Ecng.Serialization</Type>
+                  <Value type="Ecng.Serialization.SettingsStorage[], Ecng.Serialization" />
+                </value>
+              </KeyValuePairBeginStringAndObjectEnd>
+            </Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+      </Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>SlippageManager</key>
+    <value>
+      <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+      <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>type</key>
+          <value>
+            <Type type="string">string</Type>
+            <Value type="string">StockSharp.Algo.Slippage.SlippageManager, StockSharp.Algo</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>settings</key>
+          <value>
+            <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+            <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+              <KeyValuePairBeginStringAndObjectEnd>
+                <key>CalculateNegative</key>
+                <value>
+                  <Type type="string">bool</Type>
+                  <Value type="bool">True</Value>
+                </value>
+              </KeyValuePairBeginStringAndObjectEnd>
+            </Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+      </Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>RiskManager</key>
+    <value>
+      <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+      <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>type</key>
+          <value>
+            <Type type="string">string</Type>
+            <Value type="string">StockSharp.Algo.Risk.RiskManager, StockSharp.Algo</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>settings</key>
+          <value>
+            <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+            <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+              <KeyValuePairBeginStringAndObjectEnd>
+                <key>Rules</key>
+                <value>
+                  <Type type="string">Ecng.Serialization.SettingsStorage[], Ecng.Serialization</Type>
+                  <Value type="Ecng.Serialization.SettingsStorage[], Ecng.Serialization" />
+                </value>
+              </KeyValuePairBeginStringAndObjectEnd>
+            </Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+      </Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>Adapter</key>
+    <value>
+      <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+      <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>InnerAdapters</key>
+          <value>
+            <Type type="string">Ecng.Serialization.SettingsStorage[], Ecng.Serialization</Type>
+            <Value type="Ecng.Serialization.SettingsStorage[], Ecng.Serialization">
+              <SettingsStorage>
+                <KeyValuePairBeginStringAndObjectEnd>
+                  <key>AdapterType</key>
+                  <value>
+                    <Type type="string">string</Type>
+                    <Value type="string">StockSharp.Transaq.TransaqMessageAdapter, StockSharp.Transaq</Value>
+                  </value>
+                </KeyValuePairBeginStringAndObjectEnd>
+                <KeyValuePairBeginStringAndObjectEnd>
+                  <key>AdapterSettings</key>
+                  <value>
+                    <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+                    <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>Login</key>
+                        <value>
+                          <Type type="string">string</Type>
+                          <Value type="string">FZTC3637A</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>Password</key>
+                        <value>
+                          <Type type="string">System.Security.SecureString, mscorlib</Type>
+                          <Value type="System.Byte[], mscorlib">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8Z413pCmpE++CvABzQIStgAAAAACAAAAAAAQZgAAAAEAACAAAADYp4fyvEjfQZZkg00WsVEJivtbmvNJV5gFYWf484JdAgAAAAAOgAAAAAIAACAAAAD67hArDkyYuRmU3DXZWdS76qaXWYeNuV0RUe38gpmVnyAAAAA90wU5aR1H2imQcexBr7IN73Ic3VTCuL3Y+G2PGlYWZEAAAABrRWavqDtudIVievIQnmRqswi5Jcf9pZX8z/MPM2OgwsidTDoRAGLd2RxHkc7wON1n17Oo6fmzhrRCyzNH/AEt</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>Address</key>
+                        <value>
+                          <Type type="string">string</Type>
+                          <Value type="string">tr1.finam.ru:3900</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>DllPath</key>
+                        <value>
+                          <Type type="string">string</Type>
+                          <Value type="string">txmlconnector.dll</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>ApiLogsPath</key>
+                        <value>
+                          <Type type="string">string</Type>
+                          <Value type="string">C:\Users\Андреев\documents\visual studio 2015\Projects\StatA\StatA\bin\Debug\StockSharp.Transaq\Logs</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>ApiLogLevel</key>
+                        <value>
+                          <Type type="string">string</Type>
+                          <Value type="string">Standard</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>IsHFT</key>
+                        <value>
+                          <Type type="string">bool</Type>
+                          <Value type="bool">False</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>MarketDataInterval</key>
+                        <value isNull="true" />
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>Proxy</key>
+                        <value>
+                          <Type type="string">Ecng.Serialization.SettingsStorage, Ecng.Serialization</Type>
+                          <Value type="Ecng.Serialization.SettingsStorage, Ecng.Serialization">
+                            <KeyValuePairBeginStringAndObjectEnd>
+                              <key>IsEnabled</key>
+                              <value>
+                                <Type type="string">bool</Type>
+                                <Value type="bool">False</Value>
+                              </value>
+                            </KeyValuePairBeginStringAndObjectEnd>
+                            <KeyValuePairBeginStringAndObjectEnd>
+                              <key>Address</key>
+                              <value isNull="true" />
+                            </KeyValuePairBeginStringAndObjectEnd>
+                            <KeyValuePairBeginStringAndObjectEnd>
+                              <key>Login</key>
+                              <value isNull="true" />
+                            </KeyValuePairBeginStringAndObjectEnd>
+                            <KeyValuePairBeginStringAndObjectEnd>
+                              <key>Password</key>
+                              <value isNull="true" />
+                            </KeyValuePairBeginStringAndObjectEnd>
+                            <KeyValuePairBeginStringAndObjectEnd>
+                              <key>Type</key>
+                              <value>
+                                <Type type="string">string</Type>
+                                <Value type="string">Socks4</Value>
+                              </value>
+                            </KeyValuePairBeginStringAndObjectEnd>
+                          </Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>MicexRegisters</key>
+                        <value>
+                          <Type type="string">bool</Type>
+                          <Value type="bool">True</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>OverrideDll</key>
+                        <value>
+                          <Type type="string">bool</Type>
+                          <Value type="bool">True</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>HeartbeatInterval</key>
+                        <value>
+                          <Type type="string">time</Type>
+                          <Value type="time">00:00:00</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>SupportedMessages</key>
+                        <value>
+                          <Type type="string">System.String[], mscorlib</Type>
+                          <Value type="System.String[], mscorlib">
+                            <String>MarketData</String>
+                            <String>SecurityLookup</String>
+                            <String>OrderCancel</String>
+                            <String>OrderGroupCancel</String>
+                            <String>OrderPairReplace</String>
+                            <String>OrderRegister</String>
+                            <String>OrderReplace</String>
+                            <String>Portfolio</String>
+                            <String>Position</String>
+                            <String>ChangePassword</String>
+                          </Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>AssociatedBoardCode</key>
+                        <value>
+                          <Type type="string">string</Type>
+                          <Value type="string">ALL</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                      <KeyValuePairBeginStringAndObjectEnd>
+                        <key>LogLevel</key>
+                        <value>
+                          <Type type="string">string</Type>
+                          <Value type="string">Inherit</Value>
+                        </value>
+                      </KeyValuePairBeginStringAndObjectEnd>
+                    </Value>
+                  </value>
+                </KeyValuePairBeginStringAndObjectEnd>
+                <KeyValuePairBeginStringAndObjectEnd>
+                  <key>Priority</key>
+                  <value>
+                    <Type type="string">int</Type>
+                    <Value type="int">0</Value>
+                  </value>
+                </KeyValuePairBeginStringAndObjectEnd>
+              </SettingsStorage>
+            </Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>HeartbeatInterval</key>
+          <value>
+            <Type type="string">time</Type>
+            <Value type="time">00:00:00</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>SupportedMessages</key>
+          <value>
+            <Type type="string">System.String[], mscorlib</Type>
+            <Value type="System.String[], mscorlib">
+              <String>MarketData</String>
+              <String>SecurityLookup</String>
+              <String>OrderCancel</String>
+              <String>OrderGroupCancel</String>
+              <String>OrderPairReplace</String>
+              <String>OrderRegister</String>
+              <String>OrderReplace</String>
+              <String>Portfolio</String>
+              <String>Position</String>
+              <String>ChangePassword</String>
+            </Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>AssociatedBoardCode</key>
+          <value>
+            <Type type="string">string</Type>
+            <Value type="string">ALL</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+        <KeyValuePairBeginStringAndObjectEnd>
+          <key>LogLevel</key>
+          <value>
+            <Type type="string">string</Type>
+            <Value type="string">Inherit</Value>
+          </value>
+        </KeyValuePairBeginStringAndObjectEnd>
+      </Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>CreateDepthFromOrdersLog</key>
+    <value>
+      <Type type="string">bool</Type>
+      <Value type="bool">False</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>CreateTradesFromOrdersLog</key>
+    <value>
+      <Type type="string">bool</Type>
+      <Value type="bool">False</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>CreateDepthFromLevel1</key>
+    <value>
+      <Type type="string">bool</Type>
+      <Value type="bool">True</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>MarketTimeChangedInterval</key>
+    <value>
+      <Type type="string">time</Type>
+      <Value type="time">00:00:00.0100000</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>CreateAssociatedSecurity</key>
+    <value>
+      <Type type="string">bool</Type>
+      <Value type="bool">False</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>IsRestorSubscriptioneOnReconnect</key>
+    <value>
+      <Type type="string">bool</Type>
+      <Value type="bool">False</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+  <KeyValuePairBeginStringAndObjectEnd>
+    <key>LogLevel</key>
+    <value>
+      <Type type="string">string</Type>
+      <Value type="string">Inherit</Value>
+    </value>
+  </KeyValuePairBeginStringAndObjectEnd>
+</SettingsStorage>

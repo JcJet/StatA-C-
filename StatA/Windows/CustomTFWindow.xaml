@@ -1,0 +1,30 @@
+﻿<Window x:Class="StatA.Windows.CustomTFWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StatA.Windows"
+        xmlns:statA="clr-namespace:StatA"
+        xmlns:s="clr-namespace:System;assembly=mscorlib"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="CustomTFWindow" Height="80.508" Width="250">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <xctk:MaskedTextBox Grid.Column="1" Name="timeFrameTB"  Text="{Binding Path = timeFrame, StringFormat=hh\\:mm\\:ss}" Mask="00:00:00" 
+                                        ValueDataType="{x:Type s:String}" TextChanged="timeFrameTB_TextChanged"/>
+        <Label x:Name="label" Content="Таймфрейм:" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <StackPanel Grid.Column="1" Grid.Row="1" Height="Auto" Width="Auto" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Name ="OkButton" Content ="OK" Padding="3" MinWidth="30" Click="OkButton_Click"/>
+            <Button Name="CancelButton" Content ="Отмена" Padding ="3" />
+        </StackPanel>
+
+    </Grid>
+</Window>

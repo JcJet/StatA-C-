@@ -1,0 +1,73 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:s="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:StatA.Windows"
+        xmlns:Custom="http://schemas.stocksharp.com/xaml"
+        x:Class="StatA.Windows.ChartWindow"
+        mc:Ignorable="d"
+    
+        Title="ChartWindow" Height="342.49" Width="531.356">
+
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Custom:ChartPanel x:Name="Chart1" x:FieldModifier="public" Grid.Row="1" />
+            <Menu x:Name="menu" Margin="0,0,0,0">
+                <MenuItem Header="Файл">
+                    <MenuItem Header="Загрузить конфигурацию"/>
+                    <MenuItem Header="Сохранить конфигурацию"/>
+                    <Separator/>
+                    <MenuItem Header="Закрыть окно"/>
+                </MenuItem>
+                <MenuItem Header="График" RadioButton.Checked ="ChartRB_Checked">
+                    <RadioButton Name="BasketOneCB" Content="Корзина 1" IsChecked ="True"/>
+                    <RadioButton Name ="BasketTwoCB" Content="Корзина 2"/>
+                    <RadioButton Name ="ArbitrageCB" Content="Арбитраж"/>
+                    <MenuItem Name ="RefreshBtn" Header="Обновить" Click="RefreshBtn_Click"/>
+                </MenuItem>
+                <MenuItem Header="Настройки"/>
+                <MenuItem Name="timeframeMenu" Header="Таймфрейм" RadioButton.Checked = "RB_Checked">
+                    <RadioButton Name="Tick_RB" Tag ="Tick"  Content="Tick"/>
+                    <RadioButton Name="M1_RB" Tag ="M1" Content="M1"/>
+                    <RadioButton Name="M2_RB" Tag ="M2" Content="M2"/>
+                    <RadioButton Name="M3_RB" Tag ="M3" Content="M3"/>
+                    <RadioButton Name="M4_RB" Tag ="M4" Content="M4"/>
+                    <RadioButton Name="M5_RB" Tag ="M5" Content="M5" IsChecked="True"/>
+                    <RadioButton Name="M10_RB" Tag ="M10" Content="M10"/>
+                    <RadioButton Name="M15_RB" Tag ="M15" Content="M15"/>
+                    <RadioButton Name="M30_RB" Tag ="M30" Content="M30"/>
+                    <RadioButton Name="H1_RB" Tag ="H1" Content="H1"/>
+                    <RadioButton Name="H4_RB" Tag ="H4" Content="H4"/>
+                    <RadioButton Name="D_RB" Tag ="D" Content="D"/>
+                    <RadioButton Name="W_RB" Tag ="W" Content="W"/>
+                    <RadioButton Name="MN_RB" Tag ="MN" Content="MN"/>
+                    <Separator/>
+                    <MenuItem Width ="Auto" Header="Задать..." Click="MenuItem_Click" />
+                    <xctk:MaskedTextBox Name="timeFrameTB"  Text="{Binding Path = timeFrame, StringFormat=hh\\:mm\\:ss}" Mask="00:00:00" 
+                                        ValueDataType="{x:Type s:String}" TextChanged="timeFrameTB_TextChanged"/>
+                </MenuItem>
+                <MenuItem Header="Режим">
+                    <RadioButton Content="Только просмотр" IsChecked="True"/>
+                    <RadioButton Content="Эмуляция"/>
+                    <RadioButton Content="Реальный счёт"/>
+                    <Separator/>
+                    <MenuItem Header="Параметры стратегии..."/>
+                </MenuItem>
+                <MenuItem Header="Отладка">
+                    <MenuItem Name ="dbgGetCandles"  Header="Получить предыдущие свечи" Click="dbgGetCandles_Click"/>
+                </MenuItem>
+            </Menu>
+
+        </Grid>
+    </Grid>
+</Window>

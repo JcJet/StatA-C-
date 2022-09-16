@@ -1,0 +1,48 @@
+
+
+Start logging 12/10/2017 01:05:41 Transaq TXmlConnector, ver.5-T59-37-5.41.2.20.13
+01:05:41.316 Connecting to tr1.finam.ru:3900 buf=65512...
+01:05:41.316 WSA started up
+01:05:41.325 Connection error.
+01:05:41.325 WSA cleanup succeeded
+01:05:41.325 Trade Stream Closed. Reason: 'Connect/Login failed'. S:0/0, R:0/0, E:0, Rl:0
+
+
+Start logging 12/10/2017 01:05:51 Transaq TXmlConnector, ver.5-T59-37-5.41.2.20.13
+01:05:51.200 Connecting to tr1.finam.ru:3900 buf=65512...
+01:05:51.200 WSA started up
+01:05:51.336  Connected.
+01:05:51.501 Session timeout 120000 ms.
+01:05:51.501 Request timeout 20000 ms.
+01:05:51.504 SYS# 606 BLD# 1 SRV# 7 UID# 263621
+01:05:51.565 Server time:11/10/2017 21:06:01, RQL:62, Diff*10:-143900
+01:05:51.732 Server time:11/10/2017 21:06:01, RQL:78, Diff*10:-143900
+01:05:53.284 WSA cleanup succeeded
+01:05:53.284 Trade Stream Closed. Reason: 'Destruct'. S:265/6, R:6157/7, E:0, Rl:0
+
+
+Start logging 12/10/2017 01:26:08 Transaq TXmlConnector, ver.5-T59-37-5.41.2.20.13
+01:26:08.598 Connecting to tr1.finam.ru:3900 buf=65512...
+01:26:08.598 WSA started up
+01:26:08.805  Connected.
+01:26:08.960 Session timeout 120000 ms.
+01:26:08.960 Request timeout 20000 ms.
+01:26:08.960 SYS# 606 BLD# 1 SRV# 7 UID# 263621
+01:26:09.022 Server time:11/10/2017 21:26:21, RQL:62, Diff*10:-143870
+01:26:10.061 Server time:11/10/2017 21:26:21, RQL:984, Diff*10:-143875
+01:26:35.977 Snapshot accepted
+01:26:36.210 Snapshot done. 
+01:26:36.924 Server time:11/10/2017 21:26:48, RQL:375, Diff*10:-143878
+
+Start logging 12/10/2017 01:56:17 Transaq TXmlConnector, ver.5-T59-37-5.41.2.20.13
+01:56:17.048 Connecting to tr1.finam.ru:3900 buf=65512...
+01:56:17.048 WSA started up
+01:56:17.355  Connected.
+01:56:17.522 Session timeout 120000 ms.
+01:56:17.522 Request timeout 20000 ms.
+01:56:17.522 SYS# 606 BLD# 1 SRV# 7 UID# 263621
+01:56:17.584 Server time:11/10/2017 21:56:29, RQL:63, Diff*10:-143880
+01:56:18.293 Server time:11/10/2017 21:56:29, RQL:641, Diff*10:-143877
+01:56:42.597 Snapshot accepted
+01:56:43.707 Snapshot done. 
+01:56:45.814 Server time:11/10/2017 21:56:57, RQL:62, Diff*10:-143880

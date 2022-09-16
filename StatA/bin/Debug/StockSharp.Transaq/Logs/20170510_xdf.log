@@ -1,0 +1,192 @@
+161713.265013 [9604] [10528] <cmd> [V] System version 5.41. TXmlConnector version 2.20.13
+161713.323054 [9604] [10528] <cmd> [I] <command id="connect">
+  <login>FZTC3637A</login>
+  <password>*</password>
+  <host>tr1.finam.ru</host>
+  <port>3900</port>
+  <autopos>false</autopos>
+  <micex_registers>true</micex_registers>
+  <milliseconds>true</milliseconds>
+  <utc_time>true</utc_time>
+  <notes_file />
+</command>
+161714.337281 [9604] [10528] <res> [R] <result success="true"/>
+161727.975470 [9604] [clbk] <info> [O] [253172u] <client id="D5590/D5590" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+161728.000987 [9604] [clbk] <info> [O] [1783u] <client id="D5591/D5591" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+161728.003989 [9604] [clbk] <info> [O] [2707u] <client id="7600vwm" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7600vwm</forts_acc></client>
+161728.004490 [9604] [clbk] <info> [O] [148u] <client id="07E6W/07E6W" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+161728.004990 [9604] [clbk] <info> [O] [100u] <client id="07E6Y/07E6Y" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+161728.005491 [9604] [clbk] <info> [O] [104u] <client id="7618pil" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7618pil</forts_acc></client>
+161728.005991 [9604] [clbk] <info> [O] [773u] <client id="07E6V/07E6V" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+161728.006491 [9604] [clbk] <info> [O] [194u] <client id="AD13A/AD13A" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+161728.584902 [9604] [clbk] <info> [O] [187202u] <positions><forts_money><client>7600vwm</client><union></union><markets><market>4</market></markets><shortname>Äåíüãè FORTS</shortname><blocked>0.0</blocked><varmargin>0.0</varmargin><current>275921.14</current><free>275921.14</free></forts_money></positions>
+161728.872115 [9604] [clbk] <info> [O] [286050u] <server_status server_tz="Russian Standard Time" id="7" connected="true"/>
+161729.038733 [9604] [10528] <cmd> [I] <command id="get_connector_version" />
+161729.039735 [9604] [10528] <res> [R] <result success="true"/>
+161729.040235 [9604] [10528] <cmd> [I] <command id="get_server_id" />
+161729.041736 [9604] [10528] <res> [R] <result success="true"/>
+161729.042236 [9604] [10528] <cmd> [I] <command id="get_servtime_difference" />&?IW?
+161729.143808 [9604] [10528] <res> [R] <result success="true" diff="-14398"/>
+162328.765965 [9604] [10528] <cmd> [I] <command id="disconnect" />
+162329.087694 [9604] [10528] <res> [R] <result success="true"/>
+162329.088694 [9604] [clbk] <info> [O] [2445u] <server_status server_tz="Russian Standard Time" id="7" connected="false"/>
+164750.410326 [13112] [15860] <cmd> [V] System version 5.41. TXmlConnector version 2.20.13
+164750.456181 [13112] [15860] <cmd> [I] <command id="connect">
+  <login>FZTC3637A</login>
+  <password>*</password>
+  <host>tr1.finam.ru</host>
+  <port>3900</port>
+  <autopos>false</autopos>
+  <micex_registers>true</micex_registers>
+  <milliseconds>true</milliseconds>
+  <utc_time>true</utc_time>
+  <notes_file />
+</command>
+164751.457783 [13112] [15860] <res> [R] <result success="true"/>
+164759.021849 [13112] [clbk] <info> [O] [5342u] <client id="D5590/D5590" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+164759.022348 [13112] [clbk] <info> [O] [148u] <client id="D5591/D5591" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+164759.022348 [13112] [clbk] <info> [O] [100u] <client id="7600vwm" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7600vwm</forts_acc></client>
+164759.022849 [13112] [clbk] <info> [O] [70u] <client id="07E6W/07E6W" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+164759.022849 [13112] [clbk] <info> [O] [105u] <client id="07E6Y/07E6Y" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+164759.023349 [13112] [clbk] <info> [O] [96u] <client id="7618pil" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7618pil</forts_acc></client>
+164759.023850 [13112] [clbk] <info> [O] [664u] <client id="07E6V/07E6V" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+164759.024350 [13112] [clbk] <info> [O] [148u] <client id="AD13A/AD13A" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+164759.876942 [13112] [clbk] <info> [O] [72456u] <positions><forts_money><client>7600vwm</client><union></union><markets><market>4</market></markets><shortname>Äåíüãè FORTS</shortname><blocked>0.0</blocked><varmargin>0.0</varmargin><current>275921.14</current><free>275921.14</free></forts_money></positions>
+164759.995527 [13112] [clbk] <info> [O] [117576u] <server_status server_tz="Russian Standard Time" id="7" connected="true"/>
+164800.034555 [13112] [15860] <cmd> [I] <command id="get_connector_version" />
+164800.035055 [13112] [15860] <res> [R] <result success="true"/>
+164800.035055 [13112] [15860] <cmd> [I] <command id="get_server_id" />
+164800.035555 [13112] [15860] <res> [R] <result success="true"/>
+164800.035555 [13112] [15860] <cmd> [I] <command id="get_servtime_difference" />??4?
+164800.228192 [13112] [15860] <res> [R] <result success="true" diff="-14398"/>
+164806.474819 [13112] [15860] <cmd> [I] <command id="disconnect" />
+164806.831572 [13112] [15860] <res> [R] <result success="true"/>
+164806.851086 [13112] [clbk] <info> [O] [22113u] <server_status server_tz="Russian Standard Time" id="7" connected="false"/>
+165613.245719 [16116] [13664] <cmd> [V] System version 5.41. TXmlConnector version 2.20.13
+165613.302260 [16116] [13664] <cmd> [I] <command id="connect">
+  <login>FZTC3637A</login>
+  <password>*</password>
+  <host>tr1.finam.ru</host>
+  <port>3900</port>
+  <autopos>false</autopos>
+  <micex_registers>true</micex_registers>
+  <milliseconds>true</milliseconds>
+  <utc_time>true</utc_time>
+  <notes_file />
+</command>
+165614.303662 [16116] [13664] <res> [R] <result success="true"/>
+165622.066447 [16116] [clbk] <info> [O] [51185u] <client id="D5590/D5590" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+165622.066947 [16116] [clbk] <info> [O] [134u] <client id="D5591/D5591" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+165622.066947 [16116] [clbk] <info> [O] [90u] <client id="7600vwm" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7600vwm</forts_acc></client>
+165622.067447 [16116] [clbk] <info> [O] [72u] <client id="07E6W/07E6W" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+165622.067447 [16116] [clbk] <info> [O] [65u] <client id="07E6Y/07E6Y" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+165622.067447 [16116] [clbk] <info> [O] [82u] <client id="7618pil" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7618pil</forts_acc></client>
+165622.068448 [16116] [clbk] <info> [O] [588u] <client id="07E6V/07E6V" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+165622.068448 [16116] [clbk] <info> [O] [117u] <client id="AD13A/AD13A" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+165622.233065 [16116] [clbk] <info> [O] [37641u] <positions><forts_money><client>7600vwm</client><union></union><markets><market>4</market></markets><shortname>Äåíüãè FORTS</shortname><blocked>0.0</blocked><varmargin>0.0</varmargin><current>275921.14</current><free>275921.14</free></forts_money></positions>
+165622.358654 [16116] [clbk] <info> [O] [124525u] <server_status server_tz="Russian Standard Time" id="7" connected="true"/>
+165622.410691 [16116] [13664] <cmd> [I] <command id="get_connector_version" />
+165622.410691 [16116] [13664] <res> [R] <result success="true"/>
+165622.411192 [16116] [13664] <cmd> [I] <command id="get_server_id" />sion" />
+165622.411192 [16116] [13664] <res> [R] <result success="true"/>
+165622.411692 [16116] [13664] <cmd> [I] <command id="get_servtime_difference" />?????
+165622.556795 [16116] [13664] <res> [R] <result success="true" diff="-14397"/>
+165627.965515 [16116] [13664] <cmd> [I] <command id="disconnect" />
+165628.305262 [16116] [13664] <res> [R] <result success="true"/>
+165628.318272 [16116] [clbk] <info> [O] [21707u] <server_status server_tz="Russian Standard Time" id="7" connected="false"/>
+172402.332810 [15656] [15884] <cmd> [V] System version 5.41. TXmlConnector version 2.20.13
+172402.378342 [15656] [15884] <cmd> [I] <command id="connect">
+  <login>FZTC3637A</login>
+  <password>*</password>
+  <host>tr1.finam.ru</host>
+  <port>3900</port>
+  <autopos>false</autopos>
+  <micex_registers>true</micex_registers>
+  <milliseconds>true</milliseconds>
+  <utc_time>true</utc_time>
+  <notes_file />
+</command>
+172403.379620 [15656] [15884] <res> [R] <result success="true"/>
+172410.324533 [15656] [clbk] <info> [O] [5644u] <client id="D5590/D5590" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+172410.325534 [15656] [clbk] <info> [O] [168u] <client id="D5591/D5591" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+172410.325534 [15656] [clbk] <info> [O] [113u] <client id="7600vwm" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7600vwm</forts_acc></client>
+172410.326033 [15656] [clbk] <info> [O] [91u] <client id="07E6W/07E6W" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+172410.326033 [15656] [clbk] <info> [O] [88u] <client id="07E6Y/07E6Y" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+172410.326534 [15656] [clbk] <info> [O] [118u] <client id="7618pil" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7618pil</forts_acc></client>
+172410.327034 [15656] [clbk] <info> [O] [675u] <client id="07E6V/07E6V" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+172410.327535 [15656] [clbk] <info> [O] [107u] <client id="AD13A/AD13A" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+172410.943080 [15656] [clbk] <info> [O] [21259u] <positions><forts_money><client>7600vwm</client><union></union><markets><market>4</market></markets><shortname>Äåíüãè FORTS</shortname><blocked>0.0</blocked><varmargin>0.0</varmargin><current>275921.14</current><free>275921.14</free></forts_money></positions>
+172411.026639 [15656] [clbk] <info> [O] [82221u] <server_status server_tz="Russian Standard Time" id="7" connected="true"/>
+172411.050657 [15656] [15884] <cmd> [I] <command id="get_connector_version" />
+172411.051157 [15656] [15884] <res> [R] <result success="true"/>
+172411.051157 [15656] [15884] <cmd> [I] <command id="get_server_id" />
+172411.051657 [15656] [15884] <res> [R] <result success="true"/>
+172411.051657 [15656] [15884] <cmd> [I] <command id="get_servtime_difference" />0???
+172411.170581 [15656] [15884] <res> [R] <result success="true" diff="-14398"/>
+172440.068136 [15656] [15884] <cmd> [I] <command id="disconnect" />
+172440.371605 [15656] [15884] <res> [R] <result success="true"/>
+172440.481684 [15656] [clbk] <info> [O] [110797u] <server_status server_tz="Russian Standard Time" id="7" connected="false"/>
+173104.812472 [14420] [10548] <cmd> [V] System version 5.41. TXmlConnector version 2.20.13
+173104.854001 [14420] [10548] <cmd> [I] <command id="connect">
+  <login>FZTC3637A</login>
+  <password>*</password>
+  <host>tr1.finam.ru</host>
+  <port>3900</port>
+  <autopos>false</autopos>
+  <micex_registers>true</micex_registers>
+  <milliseconds>true</milliseconds>
+  <utc_time>true</utc_time>
+  <notes_file />
+</command>
+173105.855333 [14420] [10548] <res> [R] <result success="true"/>
+173112.792960 [14420] [clbk] <info> [O] [3743u] <client id="D5590/D5590" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+173112.793460 [14420] [clbk] <info> [O] [109u] <client id="D5591/D5591" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+173112.793460 [14420] [clbk] <info> [O] [70u] <client id="7600vwm" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7600vwm</forts_acc></client>
+173112.793460 [14420] [clbk] <info> [O] [52u] <client id="07E6W/07E6W" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+173112.793960 [14420] [clbk] <info> [O] [49u] <client id="07E6Y/07E6Y" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+173112.793960 [14420] [clbk] <info> [O] [58u] <client id="7618pil" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7618pil</forts_acc></client>
+173112.794461 [14420] [clbk] <info> [O] [415u] <client id="07E6V/07E6V" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+173112.794461 [14420] [clbk] <info> [O] [67u] <client id="AD13A/AD13A" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+173113.440030 [14420] [clbk] <info> [O] [29425u] <positions><forts_money><client>7600vwm</client><union></union><markets><market>4</market></markets><shortname>Äåíüãè FORTS</shortname><blocked>0.0</blocked><varmargin>0.0</varmargin><current>275921.14</current><free>275921.14</free></forts_money></positions>
+173113.575513 [14420] [clbk] <info> [O] [134810u] <server_status server_tz="Russian Standard Time" id="7" connected="true"/>
+173113.607537 [14420] [10548] <cmd> [I] <command id="get_connector_version" />
+173113.608037 [14420] [10548] <res> [R] <result success="true"/>
+173113.608037 [14420] [10548] <cmd> [I] <command id="get_server_id" />sion" />
+173113.608537 [14420] [10548] <res> [R] <result success="true"/>
+173113.609037 [14420] [10548] <cmd> [I] <command id="get_servtime_difference" />???
+173113.695099 [14420] [10548] <res> [R] <result success="true" diff="-14397"/>
+173125.773925 [14420] [10548] <cmd> [I] <command id="disconnect" />
+173126.043593 [14420] [10548] <res> [R] <result success="true"/>
+173126.082121 [14420] [clbk] <info> [O] [40382u] <server_status server_tz="Russian Standard Time" id="7" connected="false"/>
+195717.074449 [9660] [8700] <cmd> [V] System version 5.41. TXmlConnector version 2.20.13
+195717.119982 [9660] [8700] <cmd> [I] <command id="connect">
+  <login>FZTC3637A</login>
+  <password>*</password>
+  <host>tr1.finam.ru</host>
+  <port>3900</port>
+  <autopos>false</autopos>
+  <micex_registers>true</micex_registers>
+  <milliseconds>true</milliseconds>
+  <utc_time>true</utc_time>
+  <notes_file />
+</command>
+195718.121692 [9660] [8700] <res> [R] <result success="true"/>
+195725.619234 [9660] [clbk] <info> [O] [5434u] <client id="D5590/D5590" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+195725.619734 [9660] [clbk] <info> [O] [166u] <client id="D5591/D5591" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+195725.619734 [9660] [clbk] <info> [O] [95u] <client id="7600vwm" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7600vwm</forts_acc></client>
+195725.620234 [9660] [clbk] <info> [O] [89u] <client id="07E6W/07E6W" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+195725.620234 [9660] [clbk] <info> [O] [108u] <client id="07E6Y/07E6Y" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+195725.620735 [9660] [clbk] <info> [O] [103u] <client id="7618pil" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7618pil</forts_acc></client>
+195725.621235 [9660] [clbk] <info> [O] [661u] <client id="07E6V/07E6V" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+195725.621735 [9660] [clbk] <info> [O] [132u] <client id="AD13A/AD13A" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+195726.300217 [9660] [clbk] <info> [O] [34412u] <positions><forts_money><client>7600vwm</client><union></union><markets><market>4</market></markets><shortname>Äåíüãè FORTS</shortname><blocked>0.0</blocked><varmargin>0.0</varmargin><current>275921.14</current><free>275921.14</free></forts_money></positions>
+195726.444320 [9660] [clbk] <info> [O] [142262u] <server_status server_tz="Russian Standard Time" id="5" connected="true"/>
+195726.497858 [9660] [8700] <cmd> [I] <command id="get_connector_version" />
+195726.497858 [9660] [8700] <res> [R] <result success="true"/>
+195726.498358 [9660] [8700] <cmd> [I] <command id="get_server_id" />s
+195726.498358 [9660] [8700] <res> [R] <result success="true"/>
+195726.498859 [9660] [8700] <cmd> [I] <command id="get_servtime_difference" />???)
+195726.613940 [9660] [8700] <res> [R] <result success="true" diff="-14397"/>
+195729.869252 [9660] [8700] <cmd> [I] <command id="disconnect" />>?
+195730.123433 [9660] [8700] <res> [R] <result success="true"/>
+195730.142447 [9660] [clbk] <info> [O] [20628u] <server_status server_tz="Russian Standard Time" id="5" connected="false"/>

@@ -1,0 +1,92 @@
+010540.285255 [16888] [1100] <cmd> [V] System version 5.41. TXmlConnector version 2.20.13
+010540.311273 [16888] [1100] <cmd> [I] <command id="connect">
+  <login>FZTC6051A</login>
+  <password>*</password>
+  <host>tr1.finam.ru</host>
+  <port>3900</port>
+  <autopos>false</autopos>
+  <micex_registers>true</micex_registers>
+  <milliseconds>true</milliseconds>
+  <utc_time>true</utc_time>
+  <notes_file />
+</command>
+010541.312836 [16888] [1100] <res> [R] <result success="true"/>
+010541.356990 [16888] [clbk] <info> [O] [31062u] <server_status connected="error">Сервер не доступен</server_status>
+010550.197285 [16888] [1100] <cmd> [V] System version 5.41. TXmlConnector version 2.20.13
+010550.198283 [16888] [1100] <cmd> [I] <command id="connect">
+  <login>FZTC6051A</login>
+  <password>*</password>
+  <host>tr1.finam.ru</host>
+  <port>3900</port>
+  <autopos>false</autopos>
+  <micex_registers>true</micex_registers>
+  <milliseconds>true</milliseconds>
+  <utc_time>true</utc_time>
+  <notes_file />
+</command>
+010551.199356 [16888] [1100] <res> [R] <result success="true"/>
+012607.551265 [14076] [14780] <cmd> [V] System version 5.41. TXmlConnector version 2.20.13
+012607.590368 [14076] [14780] <cmd> [I] <command id="connect">
+  <login>FZTC6051A</login>
+  <password>*</password>
+  <host>tr1.finam.ru</host>
+  <port>3900</port>
+  <autopos>false</autopos>
+  <micex_registers>true</micex_registers>
+  <milliseconds>true</milliseconds>
+  <utc_time>true</utc_time>
+  <notes_file />
+</command>
+012608.595641 [14076] [14780] <res> [R] <result success="true"/>
+012636.287445 [14076] [clbk] <info> [O] [13307u] <client id="07E6W/07E6W" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+012636.288444 [14076] [clbk] <info> [O] [592u] <client id="07E6Y/07E6Y" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+012636.288943 [14076] [clbk] <info> [O] [311u] <client id="7618pil" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7618pil</forts_acc></client>
+012636.290447 [14076] [clbk] <info> [O] [1067u] <client id="07E6V/07E6V" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+012636.507097 [14076] [clbk] <info> [O] [21216u] <server_status server_tz="Russian Standard Time" id="7" connected="true"/>
+012636.508597 [14076] [14780] <cmd> [I] <command id="get_connector_version" />)
+012636.509098 [14076] [14780] <res> [R] <result success="true"/>
+012636.509098 [14076] [14780] <cmd> [I] <command id="get_server_id" />s
+012636.509598 [14076] [14780] <res> [R] <result success="true"/>
+012636.509598 [14076] [14780] <cmd> [I] <command id="get_servtime_difference" />r??
+012636.924393 [14076] [14780] <res> [R] <result success="true" diff="-14388"/>
+012636.944907 [14076] [14780] <cmd> [I] <command id="get_united_portfolio" client="07E6W/07E6W" />
+012636.996944 [14076] [14780] <res> [R] <result success="false"><message>{8} Неверное значение параметра &apos;szClient&apos;.</message></result>
+012637.018459 [14076] [14780] <cmd> [I] <command id="get_united_portfolio" client="07E6Y/07E6Y" />)
+012637.079002 [14076] [14780] <res> [R] <result success="false"><message>{8} Неверное значение параметра &apos;szClient&apos;.</message></result>
+012637.183577 [14076] [14780] <cmd> [I] <command id="get_united_portfolio" client="7618pil" />
+012637.187079 [14076] [14780] <res> [R] <result success="false"><message>{8} Неверное значение параметра &apos;szClient&apos;.</message></result>
+012637.189080 [14076] [14780] <cmd> [I] <command id="get_united_portfolio" client="07E6V/07E6V" />
+012637.189581 [14076] [14780] <res> [R] <result success="false"><message>{8} Неверное значение параметра &apos;szClient&apos;.</message></result>
+015616.009543 [14604] [5096] <cmd> [V] System version 5.41. TXmlConnector version 2.20.13
+015616.045714 [14604] [5096] <cmd> [I] <command id="connect">
+  <login>FZTC6051A</login>
+  <password>*</password>
+  <host>tr1.finam.ru</host>
+  <port>3900</port>
+  <autopos>false</autopos>
+  <micex_registers>true</micex_registers>
+  <milliseconds>true</milliseconds>
+  <utc_time>true</utc_time>
+  <notes_file />
+</command>
+015617.046758 [14604] [5096] <res> [R] <result success="true"/>
+015643.742122 [14604] [clbk] <info> [O] [9704u] <client id="07E6W/07E6W" remove="false"><market>15</market><currency>RUR</currency><type>leverage</type></client>
+015643.743089 [14604] [clbk] <info> [O] [300u] <client id="07E6Y/07E6Y" remove="false"><market>1</market><currency>RUR</currency><type>leverage</type></client>
+015643.744066 [14604] [clbk] <info> [O] [348u] <client id="7618pil" remove="false"><market>4</market><currency>RUR</currency><type>spot</type><forts_acc>7618pil</forts_acc></client>
+015643.745044 [14604] [clbk] <info> [O] [1123u] <client id="07E6V/07E6V" remove="false"><market>7</market><currency>USD</currency><type>leverage</type></client>
+015644.576194 [14604] [clbk] <info> [O] [27637u] <server_status server_tz="Russian Standard Time" id="7" connected="true"/>
+015644.577695 [14604] [5096] <cmd> [I] <command id="get_connector_version" />
+015644.578195 [14604] [5096] <res> [R] <result success="true"/>
+015644.578195 [14604] [5096] <cmd> [I] <command id="get_server_id" />
+015644.578195 [14604] [5096] <res> [R] <result success="true"/>
+015644.578695 [14604] [5096] <cmd> [I] <command id="get_servtime_difference" />m
+015645.814036 [14604] [5096] <res> [R] <result success="true" diff="-14388"/>
+015645.843366 [14604] [5096] <cmd> [I] <command id="get_united_portfolio" client="07E6W/07E6W" />)
+015646.175227 [14604] [5096] <res> [R] <result success="false"><message>{8} Неверное значение параметра &apos;szClient&apos;.</message></result>
+015646.201245 [14604] [5096] <cmd> [I] <command id="get_united_portfolio" client="07E6Y/07E6Y" />le`1<!0>)
+015646.244776 [14604] [5096] <res> [R] <result success="false"><message>{8} Неверное значение параметра &apos;szClient&apos;.</message></result>
+015646.310322 [14604] [5096] <cmd> [I] <command id="get_united_portfolio" client="7618pil" />
+015646.347349 [14604] [5096] <res> [R] <result success="false"><message>{8} Неверное значение параметра &apos;szClient&apos;.</message></result>
+015646.348349 [14604] [5096] <cmd> [I] <command id="get_united_portfolio" client="07E6V/07E6V" />
+
+015646.348850 [14604] [5096] <res> [R] <result success="false"><message>{8} Неверное значение параметра &apos;szClient&apos;.</message></result>
